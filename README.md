@@ -6,7 +6,7 @@ as an example, i will going to conisder the example the example which has been c
 
 
 
-$\huge{\frac{dh(z)}{dz} = \frac{3h^2(z) - 3\sigma_0 (2h(z)\Omega(z) - \Omega^2(z))}{2(1 + z)h(z)}}$
+$\Huge{\frac{dh(z)}{dz} = \frac{3h^2(z) - 3\sigma_0 (2h(z)\Omega(z) - \Omega^2(z))}{2(1 + z)h(z)}}$
 
 R\frac{d\Omega(z)}{dz} = \frac{-2(3\sigma_0 - 2)h(z)\Omega(z) - (1 - 3\sigma_0)\Omega^2(z)}{2(1 + z)h(z)}R
 
