@@ -6,7 +6,6 @@ as an example, i will going to conisder the example the example which has been c
 https://doi.org/10.48550/arXiv.2411.03060 "Semi-Symmetric Metric Gravity: A Brief Overview", I will going to conisder the  Linear cosmological model, in the paper, Prof.Dr.Tiberiu Harko has found the form of the Hubble function, where the Hubble paramter has been condiered in the form of the Normalaized form of the Huuble paramer one can the form given below
 
 
-
 $\Huge{\frac{dh(z)}{dz} = \frac{3h^2(z) - 3\sigma_0 (2h(z)\Omega(z) - \Omega^2(z))}{2(1 + z)h(z)}}$
 
 $\Huge{\frac{d\Omega(z)}{dz} = \frac{-2(3\sigma_0 - 2)h(z)\Omega(z) - (1 - 3\sigma_0)\Omega^2(z)}{2(1 + z)h(z)}}$
