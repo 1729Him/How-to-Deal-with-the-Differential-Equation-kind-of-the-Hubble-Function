@@ -8,7 +8,7 @@ as an example, i will going to conisder the example the example which has been c
 
 $\Huge{\frac{dh(z)}{dz} = \frac{3h^2(z) - 3\sigma_0 (2h(z)\Omega(z) - \Omega^2(z))}{2(1 + z)h(z)}}$
 
-R\frac{d\Omega(z)}{dz} = \frac{-2(3\sigma_0 - 2)h(z)\Omega(z) - (1 - 3\sigma_0)\Omega^2(z)}{2(1 + z)h(z)}R
+$\frac{d\Omega(z)}{dz} = \frac{-2(3\sigma_0 - 2)h(z)\Omega(z) - (1 - 3\sigma_0)\Omega^2(z)}{2(1 + z)h(z)}$
 
 The system of equations has to be solved with initial conditions $h(0) = 1$, $\Omega(0)=\Omega_0$.
 
