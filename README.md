@@ -2,7 +2,8 @@
 
 In this Repository, We will going to Explore how we can deal with the Hubble Function which are in the from of the set of the Differential Eqautions
 
-as an example, i will going to conisder the example the example which has been considered one of my Review Paper arXiv:2411.03060v1 "Semi-Symmetric Metric Gravity: A Brief Overview", I will going to conisder the  Linear cosmological model, in the paper, Prof.Dr.Tiberiu Harko has found the form of the Hubble function, where the Hubble paramter has been condiered in the form of the Normalaized form of the Huuble paramer one can the form given below
+as an example, i will going to conisder the example the example which has been considered one of my Review Paper 
+https://doi.org/10.48550/arXiv.2411.03060 "Semi-Symmetric Metric Gravity: A Brief Overview", I will going to conisder the  Linear cosmological model, in the paper, Prof.Dr.Tiberiu Harko has found the form of the Hubble function, where the Hubble paramter has been condiered in the form of the Normalaized form of the Huuble paramer one can the form given below
 
 
 
