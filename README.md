@@ -1,6 +1,6 @@
 How to Constrain the Parameters of the Hubble Function Given in the Form of Differential Equations
 
-In this repository, we explore how to deal with Hubble functions that are expressed as a system of differential equations. As an example, we will consider the linear cosmological model, which was studied in the review paper: [Semi-Symmetric Metric Gravity: A Brief Overview](https://doi.org/10.48550/arXiv.2411.03060). In this paper, Prof. Dr. Tiberiu Harko derives the form of the Hubble function in the context of a cosmological model, where the Hubble parameter is represented in its normalized form.
+In this repository, we explore how to deal with Hubble functions that are expressed as a system of differential equations. As an example, we will consider the linear cosmological model, which was studied in the review paper: [Semi-Symmetric Metric Gravity: A Brief Overview](https://doi.org/10.48550/arXiv.2411.03060). In this paper, Prof. Dr. Tiberiu Harko and Mr. Lehel Csillag derives the form of the Hubble function in the context of a cosmological model, where the Hubble parameter is represented in its normalized form.
 
 ### System of Differential Equations
 
