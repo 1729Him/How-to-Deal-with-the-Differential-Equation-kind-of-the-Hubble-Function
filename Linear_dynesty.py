@@ -166,9 +166,6 @@ def log_likelihood(params):
     sol = solve_ivp(lambda t, y: equation(t, y, params), [0, 3], y_initial, t_eval=np.linspace(0.0, 3, 800), rtol=1e-3, atol=1e-6, method='RK45')
     tsol = sol.t
 
-    if len(tsol) != 800:
-        return -np.inf
-
     # Hubble-Chi2
     H_model = sol.y[0]
 
