@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from numpy.linalg import inv
 from tqdm import tqdm
 import scipy.linalg as la
+from scipy import stats
 import pandas as pd
 from getdist import plots, MCSamples
 from multiprocessing import Pool, cpu_count
@@ -272,17 +273,25 @@ def main():
     likelihoods_only = np.array(likelihoods_only)
 
     max_log_likelihood = np.max(likelihoods_only)
+    
+    N = 1618
+    k = ndim  # number of parameters
 
-    AIC = -2 * max_log_likelihood + 2 * ndim
-    N = 1749
-    BIC = -2 * max_log_likelihood + ndim * np.log(N)
-    chi2val = -2 * likelihoods_only
+    chi2_values = -2 * likelihoods_only
+    min_chi2 = np.min(chi2_values)
+    reduced_chi2 = min_chi2 / (N - k)
+    p_value = 1 - stats.chi2.cdf(min_chi2, df=(N - k))
 
-    print("Min chi_square = ", np.min(chi2val))
-    print("The maximum likelihood =", max_log_likelihood)
+    AIC = -2 * max_log_likelihood + 2 * k
+    BIC = -2 * max_log_likelihood + k * np.log(N)
+
+    print("Minimum chi-squared =", min_chi2)
+    print("Reduced chi-squared =", reduced_chi2)
+    print("P-value =", p_value)
+    print("Maximum log-likelihood =", max_log_likelihood)
     print("AIC =", AIC)
     print("BIC =", BIC)
-
+	
     g = plots.get_subplot_plotter(width_inch=10)
     g.settings.figure_legend_frame = True
     g.settings.alpha_filled_add = 0.6
